@@ -5,7 +5,7 @@ $(document).ready(function () {
     music = new Howl({
         src: ["audio/track2.mp3"],
         loop: true,
-        volume: 0.75
+        volume: 0.2
     });
 
 
