@@ -12,15 +12,19 @@ $(document).ready(function () {
 });
 
 $("#tree>img").click(function (e) { 
+    $("#tree>img").removeClass("shaking");
     music.stop();
     let name = e.target.id
     console.log(name);
     if (name == "toy1") {
-        music.play(0);
-    } else if (name == "toy2") {
+        $(e.target).addClass("shaking");
         music.play(1);
-    } else if (name == "toy3") {
+    } else if (name == "toy2") {
+        $(e.target).addClass("shaking");
         music.play(2);
+    } else if (name == "toy3") {
+        $(e.target).addClass("shaking");
+        music.play(3);
     }
     
         

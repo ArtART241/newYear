@@ -41,7 +41,7 @@ body{
     left: 49.3%;
     top: 13%;
     transform-origin: top;
-    animation: toyShake ease-in-out 3s infinite;
+    /* animation: toyShake ease-in-out 3s infinite; */
 }
 
 @keyframes toyShake{
@@ -53,6 +53,10 @@ body{
         transform: rotate(-30deg);
     }
 
+}
+
+.shaking{
+    animation: toyShake 3s infinite;
 }
 
 #tree{
