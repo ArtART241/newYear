@@ -14,6 +14,7 @@ $(document).ready(function () {
 $("#tree>img").click(function (e) { 
     music.stop();
     let name = e.target.id
+    console.log(name);
     if (name == "toy1") {
         music.play(0);
     } else if (name == "toy2") {

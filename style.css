@@ -40,6 +40,19 @@ body{
     width: 1.5%;
     left: 49.3%;
     top: 13%;
+    transform-origin: top;
+    animation: toyShake ease-in-out 3s infinite;
+}
+
+@keyframes toyShake{
+    25%{
+        transform: rotate(30deg);
+    }
+
+    75%{
+        transform: rotate(-30deg);
+    }
+
 }
 
 #tree{
