@@ -20,22 +20,54 @@ body{
     }
 }
 
-/* Music Player */
-#player{
-    top: 0;
-    position: fixed;
-    left: 85%;
-    background-image: url("img/tree_toy.png");
-    background-size: contain;
-    width: 80px;
-    height: 158px;
-}
-#player>img{
-    position: relative;
-    width: 33px;
-    left: 21px;
-    top: 98px;
 
+#toy3{
+    position: fixed;
+    width: 2.5%;
+    left: 45%;
+    top: 13%;
+}
+
+#toy1{
+    position: fixed;
+    width: 3%;
+    left: 50.5%;
+    top: 19%;
+}
+
+#toy2{
+    position: fixed;
+    width: 1.5%;
+    left: 49.3%;
+    top: 13%;
+}
+
+#tree{
+    position: fixed;
+    left: calc(50% - 120px);
+    background-image: url("img/803px-Christmas_tree.svg.png");
+    background-size: contain;
+    width: 167px;
+    height: 214px;
+}
+
+#countdown{
+    position: absolute;
+    left: 21%;
+    top: 50%;
+    font-family: 'Squada One', cursive;
+    color: white;
+}
+
+#countdown>p{
+    position: relative;
+    font-size: 42pt;
+}
+
+#countdown>span{
+    position: relative;
+    top: -50px;
+    font-size: 32pt;
 }
 
 @font-face {
