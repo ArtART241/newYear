@@ -3,7 +3,7 @@ let music;
 $(document).ready(function () {
     
     music = new Howl({
-        src: ["audio/track2.mp3, audio/track1.mp3, audio/track3.mp3"],
+        src: ["audio/track2.mp3", "audio/track1.mp3", "audio/track3.mp3"],
         loop: true,
         volume: 0.3
     });
