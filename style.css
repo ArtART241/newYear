@@ -23,21 +23,21 @@ body{
 
 #toy3{
     position: fixed;
-    width: 2.5%;
+    width: 50px;
     left: 45%;
     top: 13%;
 }
 
 #toy1{
     position: fixed;
-    width: 3%;
+    width: 50px;
     left: 50.5%;
     top: 19%;
 }
 
 #toy2{
     position: fixed;
-    width: 1.5%;
+    width: 50px;
     left: 49.3%;
     top: 13%;
     transform-origin: top;
